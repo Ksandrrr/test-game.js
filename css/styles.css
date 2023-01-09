@@ -37,10 +37,12 @@ background-color: black;
   animation-duration: 1s;
   animation-name: slidein;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   
 }
+
 
 .button-ballx2 {
   position: absolute;
@@ -52,7 +54,11 @@ background-color: black;
   animation-name: slidein;
   
 }
-@keyframes slidein {
+.button-ball:hover {
+  background-color: red;
+
+}
+/* @keyframes slidein {
   0% {width: 5px;
     height: 5px;
     border-radius: 0%;
@@ -68,4 +74,4 @@ background-color: black;
     100%{width: 100px;
       height: 100px;
    }
-}
+} */
