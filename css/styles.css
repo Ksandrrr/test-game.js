@@ -11,8 +11,12 @@ align-items: center;
 margin-top: 150px;
 
 }
+.numb {
+  color: rgb(255, 123, 0);
+  font-size: 30px;
+}
 .start {
-border: none;
+border: none; 
 width: 200px;
 height: 60px;
 font-size: 40px;
@@ -20,6 +24,7 @@ font-weight: 700;
 background-color: blueviolet;
 color: rgb(225, 245, 49);
 border-radius: 10px;
+background-color: black;
 
 }
 .button-ball {
