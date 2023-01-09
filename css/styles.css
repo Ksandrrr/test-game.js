@@ -1,0 +1,66 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 5550ms;
+}
+.position {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+
+}
+.start {
+border: none;
+width: 200px;
+height: 60px;
+font-size: 40px;
+font-weight: 700;
+background-color: blueviolet;
+color: rgb(225, 245, 49);
+border-radius: 10px;
+
+}
+.button-ball {
+  position: absolute;
+
+  width: 100px;
+  height: 100px;
+  
+  background-color: rgb(255, 65, 182);
+  animation-duration: 1s;
+  animation-name: slidein;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.button-ballx2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+ 
+  background-color: rgb(255, 78, 187);
+  animation-duration: 1s;
+  animation-name: slidein;
+  
+}
+@keyframes slidein {
+  0% {width: 5px;
+    height: 5px;
+    border-radius: 0%;
+  }
+  50%{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+  }
+  70% {
+    border-radius: 50%;
+  }
+    100%{width: 100px;
+      height: 100px;
+   }
+}
